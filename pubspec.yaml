@@ -1,0 +1,39 @@
+name: flutter_application_2
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.0.15
+  curved_navigation_bar: ^1.0.0
+  curved_labeled_navigation_bar: ^2.0.2
+  firebase_auth: ^5.1.2
+  logging: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/avatar.png
+    - assets/icons/cleaning.png
+    - assets/icons/repairing.png
+    - assets/icons/plumbing.png
+    - assets/icons/shifting.png
+    - assets/icons/electrical.png
+    - assets/icons/gardening.png
+    - assets/images/car_washing.png
+    - assets/images/cloth_ironing.png
+    - assets/images/home_cleaning.png
